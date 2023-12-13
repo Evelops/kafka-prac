@@ -1,21 +1,14 @@
-## ts-express-boiler
+### Messaging Platform Practice 
 
-#### Adding Yet 
+- Kafka
+- Rabbit MQ
+- SQS 
+- SNS 
 
-- Redis 
-- ES(elastic search)
-- JWT 
-- Sequelize || ORM 
-- passport
-- Mongo
+> LOG
 
+- Kafka With NODE 
 
-#### INSTALL LOG
-
-> command
-
-```bash
-npm i express compression cors morgan multer dotenv
-npm i -D nodemon typescript ts-node @types/cors @types/express @types/multer @types/compression @types/morgan
-npm install eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node husky --save-dev
+```bash 
+$ npm i kafka js 
 ```
