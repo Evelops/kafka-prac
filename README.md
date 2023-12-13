@@ -10,5 +10,5 @@
 - Kafka With NODE 
 
 ```bash 
-$ npm i kafka js 
+$ npm install kafkajs
 ```

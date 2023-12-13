@@ -16,9 +16,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-//Router
-app.get('/', (req: Request, res: Response) => {
-  res.send('Root Router');
-});
+// router 
+
+import kafka from "./routers/kafka.router";
+
+app.use("/kafka",kafka);
 
 export default app;
